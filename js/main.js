@@ -2,6 +2,7 @@
 const hamburger = document.querySelector(".hamburger");
 const mobileMenu = document.querySelector(".mobile-navbar");
 const closeMenu = document.querySelector(".close-burger");
+
 const slider = document.querySelector('#image-slider');
 const prevBtn = document.querySelector('#prev-img');
 const nextBtn = document.querySelector('#next-img');
