@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   padding: 0;
   margin: 0;
   height: 100%;
@@ -96,22 +97,22 @@ nav ul {
   cursor: pointer;
 }
 
-#slider-container{
-  overflow:hidden;
-  position:relative;
+#slider-container {
+  overflow: hidden;
+  position: relative;
   height: auto;
 }
 
-#image-slider{
-  position:relative;
-  display:flex;
-  transition:transform .5s ease-in-out;
+#image-slider {
+  position: relative;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
   height: 100%;
 }
 
-.slider-image{
-  max-width:100%;
-  height:auto;
+.slider-image {
+  max-width: 100%;
+  height: auto;
 }
 
 #next-img img {
@@ -121,7 +122,7 @@ nav ul {
   width: 5%;
   cursor: pointer;
   margin-right: 15px;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 #next-img img:hover {
@@ -135,7 +136,7 @@ nav ul {
   width: 5%;
   cursor: pointer;
   margin-left: 15px;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 #prev-img img:hover {
@@ -150,24 +151,24 @@ nav ul {
   right: 20px;
 }
 
-#item-container{
-  overflow:hidden;
-  position:relative;
+#item-container {
+  overflow: hidden;
+  position: relative;
   height: auto;
   padding-bottom: 100px;
   background-color: limegreen;
 }
 
-#item-slider{
-  position:relative;
-  display:flex;
-  transition:transform .5s ease-in-out;
+#item-slider {
+  position: relative;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
   height: 100%;
 }
 
-.item-img{
-  max-width:100%;
-  height:auto;
+.item-img {
+  max-width: 100%;
+  height: auto;
   display: flex;
 }
 
@@ -178,7 +179,7 @@ nav ul {
   width: 7%;
   cursor: pointer;
   margin-right: 25px;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 #next-item img:hover {
@@ -192,7 +193,7 @@ nav ul {
   width: 7%;
   cursor: pointer;
   margin-left: 25px;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 #prev-item img:hover {
@@ -207,7 +208,19 @@ nav ul {
   right: 75px;
 }
 
-#btn-2, #btn-3, #btn-4, #btn-5 {
+#desktop-container .image-container {
+  position: relative;
+  display: inline-block;
+  width: 25%;
+}
+
+#desktop-container .image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#desktop-container .image-container .btn {
   display: none;
 }
 
@@ -274,7 +287,6 @@ nav ul {
     margin: 24px 40px;
   }
 
-
   nav ul {
     float: right;
     margin-right: 20px;
@@ -299,7 +311,7 @@ nav ul {
     color: white;
     background-color: black;
     padding: 10px;
-    transition: .5s;
+    transition: 0.5s;
   }
 
   .mobile-navbar {
@@ -321,7 +333,7 @@ nav ul {
     width: 7%;
     cursor: pointer;
   }
-  
+
   #prev-item img {
     position: absolute;
     top: 50%;
@@ -333,11 +345,10 @@ nav ul {
   #prev-item img {
     left: 100px;
   }
-  
+
   #next-item img {
     right: 100px;
   }
-  
 
   .item-img {
     max-width: 100%;
@@ -360,7 +371,7 @@ nav ul {
     right: 0;
     left: 0;
   }
-  
+
   #btn-1 a:hover {
     color: limegreen;
     background-color: black;
@@ -381,7 +392,7 @@ nav ul {
     font-size: 11px;
     margin-right: 25px;
   }
-  
+
   #footer {
     display: flex;
     justify-content: space-between;
@@ -393,7 +404,6 @@ nav ul {
 
 /* Desktop Grid */
 @media screen and (min-width: 1200px) {
-
   .logo {
     position: relative;
     width: 225px;
@@ -461,8 +471,7 @@ nav ul {
     display: none;
   }
 
-  
-  #btn-2, #btn-3, #btn-4, #btn-5 {
+  #desktop-container .image-container .btn {
     position: absolute;
     display: flex;
     align-items: center;
@@ -472,74 +481,57 @@ nav ul {
     width: 200px;
     height: 60px;
     border-radius: 50px;
-    top: 90%;
-    transform: translateY(-50%);
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
-  #btn-2:hover {
+  #desktop-container .image-container #btn-2:hover {
     color: yellow;
     background-color: black;
     cursor: pointer;
-    transform: scale(1.1);
+    transform: translateX(-50%) scale(1.1);
     top: 85%;
   }
 
-  #btn-3:hover {
+  #desktop-container .image-container #btn-3:hover {
     color: orange;
     background-color: black;
     cursor: pointer;
-    transform: scale(1.1);
+    transform: translateX(-50%) scale(1.1);
     top: 85%;
   }
 
-  #btn-4:hover {
+  #desktop-container .image-container #btn-4:hover {
     color: greenyellow;
     background-color: black;
     cursor: pointer;
-    transform: scale(1.1);
+    transform: translateX(-50%) scale(1.1);
     top: 85%;
   }
 
-  #btn-5:hover {
+  #desktop-container .image-container #btn-5:hover {
     color: red;
     background-color: black;
     cursor: pointer;
-    transform: scale(1.1);
+    transform: translateX(-50%) scale(1.1);
     top: 85%;
   }
 
-  
-
-  #btn-2 {
-    left: calc(12.5% - 100px);
-  }
-
-  #btn-3 {
-    left: calc(37.5% - 100px);
-  }
-
-  #btn-4 {
-    left: calc(62.5% - 100px);
-  }
-
-  #btn-5 {
-    left: calc(87.5% - 100px);
-  }
-
   #video {
-    height:800px;
+    height: 800px;
   }
 
   #foot-img {
     width: 30%;
     margin-left: 50px;
   }
-  
+
   #foot-text {
     font-size: 14px;
     margin-right: 50px;
   }
-  
+
   #footer {
     display: flex;
     justify-content: space-between;
