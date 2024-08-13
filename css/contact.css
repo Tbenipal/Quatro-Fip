@@ -159,6 +159,24 @@ background-color: limegreen;
 border-radius: 0;
 }
 
+#foot-img {
+  width: 30%;
+  margin-left: 25px;
+}
+
+#foot-text {
+  font-size: 10px;
+  margin-right: 25px;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 175px;
+  width: 100%;
+}
+
 
 /* Tablet Grid */
 @media screen and (min-width: 768px) {
@@ -275,6 +293,24 @@ border-radius: 0;
     background-color: limegreen;
     border-radius: 0;
   }
+
+  #foot-img {
+    max-width: 225px;
+    margin-left: 25px;
+  }
+
+  #foot-text {
+    font-size: 11px;
+    margin-right: 25px;
+  }
+
+  #footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 175px;
+    width: 100%;
+  }
 }
 
 /* Desktop Grid */
@@ -379,6 +415,24 @@ border-radius: 0;
     width: 425px;
     background-color: limegreen;
     border-radius: 0;
+  }
+
+  #foot-img {
+    width: 30%;
+    margin-left: 50px;
+  }
+
+  #foot-text {
+    font-size: 14px;
+    margin-right: 50px;
+  }
+
+  #footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 175px;
+    width: 100%;
   }
 
 }
