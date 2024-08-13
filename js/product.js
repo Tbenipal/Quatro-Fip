@@ -10,7 +10,7 @@ const content = document.querySelector("#lightbox article");
 let products = [
   {
     "name": "Lemon",
-    "description": "Lemons are a good source of vitamin C and flavonoids, which are antioxidants.",
+    "description": "INGREDIENTS: CARBONATED WATER, SUGAR, CITRIC ACID, NATURAL LEMON FLAVOR, SODIUM CITRATE, POTASSIUM SORBATE, SODIUM BENZOATE, LEMON JUICE CONCENTRATE",
     "image": "images/Lemon_Front2.png"
   },
   {
