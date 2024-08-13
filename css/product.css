@@ -116,10 +116,6 @@ nav ul {
   height: auto;
 }
 
-#mobile-container {
-
-}
-
 #mobile-container .image-container {
   position: relative;
   padding-top: 0px;
@@ -198,6 +194,85 @@ nav ul {
 #desktop-container .image-container .btn, #tablet-container .image-container .btn {
   display: none;
 }
+
+/* select the h3 tag inside the article tag on the page */
+/* a selector followed by a space and then ANOTHER selector gets a reference to the parent element and then the child element or elements inside of it */
+article h3  {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+/* select the p tag inside the article tag on the page */
+article p {
+  width: 80%;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Lightbox styles */
+
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.lightbox.show-lightbox {
+  display: flex;
+}
+
+.lightbox_close {
+  position: relative;
+  top: 20px;
+  left: 90%;
+  color: black;
+  font-size: 3em;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.lightbox_close:hover { 
+  opacity: 0.5; color: limegreen; 
+}
+
+.lightbox article {
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.lb_heading {
+  font-family: 'Poetsen One', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.lb_text {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-bottom: 20px;
+}
+
+.lb_image {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+/* turn the lightbox on using the :target pseudo selector */
+.lightbox:target { display: block; }
+
+/* Footer */
 
 #foot-img {
   width: 30%;
