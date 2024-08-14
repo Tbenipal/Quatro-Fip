@@ -111,6 +111,10 @@ nav ul {
   height: 100%;
 }
 
+#btn-6, #btn-7, #btn-8, #btn-9, #btn-10, #btn-11, #btn-12, #btn-13 {
+  display: none;
+}
+
 .des-img {
   width: 100%;
   height: auto;
@@ -335,6 +339,10 @@ nav ul {
     display: none;
   }
 
+  #btn-2, #btn-3, #btn-4, #btn-5, #btn-10, #btn-11, #btn-12, #btn-13 {
+    display: none;
+  }
+
   #tablet-container {
     display: flex;
     justify-content: center;
@@ -387,7 +395,7 @@ nav ul {
     transform: translateX(-50%);
   }
 
-  #tablet-container .image-container #btn-2:hover {
+  #tablet-container .image-container #btn-6:hover {
     color: yellow;
     background-color: black;
     cursor: pointer;
@@ -395,7 +403,7 @@ nav ul {
     top: 83%;
   }
 
-  #tablet-container .image-container #btn-3:hover {
+  #tablet-container .image-container #btn-7:hover {
     color: orange;
     background-color: black;
     cursor: pointer;
@@ -403,7 +411,7 @@ nav ul {
     top: 83%;
   }
 
-  #tablet-container .image-container #btn-4:hover {
+  #tablet-container .image-container #btn-8:hover {
     color: greenyellow;
     background-color: black;
     cursor: pointer;
@@ -411,7 +419,7 @@ nav ul {
     top: 83%;
   }
 
-  #tablet-container .image-container #btn-5:hover {
+  #tablet-container .image-container #btn-9:hover {
     color: red;
     background-color: black;
     cursor: pointer;
@@ -524,6 +532,10 @@ nav ul {
     padding: 0px;
   }
 
+  #btn-2, #btn-3, #btn-4, #btn-5, #btn-6, #btn-7, #btn-8, #btn-9 {
+    display: none;
+  }
+
   #tablet-container, #tab-container {
     display: none;
   } 
@@ -576,7 +588,7 @@ nav ul {
     transform: translateX(-50%);
   }
 
-  #desktop-container .image-container #btn-2:hover {
+  #desktop-container .image-container #btn-10:hover {
     color: yellow;
     background-color: black;
     cursor: pointer;
@@ -584,7 +596,7 @@ nav ul {
     top: 83%;
   }
 
-  #desktop-container .image-container #btn-3:hover {
+  #desktop-container .image-container #btn-11:hover {
     color: orange;
     background-color: black;
     cursor: pointer;
@@ -592,7 +604,7 @@ nav ul {
     top: 83%;
   }
 
-  #desktop-container .image-container #btn-4:hover {
+  #desktop-container .image-container #btn-12:hover {
     color: greenyellow;
     background-color: black;
     cursor: pointer;
@@ -600,7 +612,7 @@ nav ul {
     top: 83%;
   }
 
-  #desktop-container .image-container #btn-5:hover {
+  #desktop-container .image-container #btn-13:hover {
     color: red;
     background-color: black;
     cursor: pointer;
