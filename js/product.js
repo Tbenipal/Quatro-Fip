@@ -15,18 +15,18 @@ let products = [
   },
   {
     "name": "Orange",
-    "description": "Oranges are known for their vitamin C content. They also contain fiber, antioxidants, and several nutrients.",
-    "image": "images/Orange_Poster.jpg"
+    "description": "INGREDIENTS: CARBONATED WATER, SUGAR, CITRIC ACID, NATURAL ORANGE FLAVOR, SODIUM CITRATE, POTASSIUM SORBATE, SODIUM BENZOATE, ORANGE JUICE CONCENTRATE",
+    "image": "images/Orange_Front2.png"
   },
   {
     "name": "Pineapple",
-    "description": "Pineapples are tropical fruits that are rich in vitamins, enzymes, and antioxidants.",
-    "image": "images/Pineapple_Poster2.jpg"
+    "description": "INGREDIENTS: CARBONATED WATER, SUGAR, CITRIC ACID, NATURAL PINEAPPLE FLAVOR, SODIUM CITRATE, POTASSIUM SORBATE, SODIUM BENZOATE, PINEAPPLE JUICE CONCENTRATE",
+    "image": "images/Pineapple_Front2.png"
   },
   {
     "name": "Grapefruit",
-    "description": "Grapefruits are low in calories but are full of nutrients. They are an excellent source of vitamins A and C.",
-    "image": "images/Grapefruit_Poster.jpg"
+    "description": "CARBONATED WATER, SUGAR, CITRIC ACID, NATURAL GRAPEFRUIT FLAVOR, SODIUM CITRATE, POTASSIUM SORBATE, SODIUM BENZOATE, GRAPEFRUIT JUICE CONCENTRATE",
+    "image": "images/Grapefruit_Front2.png"
   }
 ];
 
@@ -61,6 +61,12 @@ function fillContent() {
   productDescription.innerText = products[this.dataset.heroIndex].description;
   productDescription.classList = "lb_text";
   content.appendChild(productDescription);
+
+  let closeButton = document.createElement('a');
+  closeButton.href = "";
+  closeButton.classList = "lightbox_close";
+  closeButton.innerText = "x";
+  content.appendChild(closeButton);
 
   lightBox.classList.add("show-lightbox");
 }

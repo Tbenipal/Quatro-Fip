@@ -218,13 +218,14 @@ nav ul {
 }
 
 .lightbox_close {
-  position: relative;
-  top: 205px;
-  left: 88%;
+  position: absolute;
+  top: 0px;
+  right: 20px;
   color: black;
-  font-size: 3em;
+  font-size: 2.5em;
   text-decoration: none;
   font-weight: bolder;
+  z-index: 1001;
 }
 
 .lightbox_close:hover { 
@@ -232,6 +233,10 @@ nav ul {
 }
 
 .lightbox article {
+  position: relative;
+  max-width: 768px;
+  width: 100%;
+  margin: 50px auto;
   margin-top: 150px;
   background-color: white;
   padding: 20px;
@@ -420,13 +425,14 @@ nav ul {
   }
   
   .lightbox_close {
-    position: relative;
-    top: 250px;
+    position: absolute; 
+    top: 0px;
+    right: 20px;
     color: black;
     font-size: 3em;
     text-decoration: none;
     font-weight: bolder;
-    z-index: 999;
+    z-index: 1001;
   }
   
   .lightbox_close:hover { 
@@ -436,9 +442,9 @@ nav ul {
   .lightbox article {
     position: relative;
     top: 200px;
-    max-width: 768px; /* Set maximum width for the article */
-    width: 100%; /* Ensure the article takes full width within max-width */
-    margin: 0 auto; /* Center horizontally */
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
     background-color: white;
     padding: 20px;
     border-radius: 8px;
@@ -457,7 +463,7 @@ nav ul {
   }
 
   .lb_image {
-    max-width: 100%; /* Ensure image does not exceed its container */
+    max-width: 100%;
     height: auto;
     position: relative;
   }
