@@ -7,7 +7,7 @@
 html, body {
   padding: 0;
   margin: 0;
-  height: 100%;
+  height: auto;
   font-family: "Poetsen One", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -98,10 +98,12 @@ nav ul {
 
 #mobile-container {
   width: 100%;
+  height: auto;
 }
 
 #mob-container {
   width: 100%;
+  height: auto;
 }
 
 .image-container {
@@ -128,7 +130,7 @@ nav ul {
 }
 
 #mobile-container .image-container a {
-  font-size: 4vw;
+  font-size: 3vw;
 }
 
 
@@ -139,12 +141,42 @@ nav ul {
   justify-content: center;
   background-color: white;
   color: black;
-  width: 60%;
-  height: 10%;
+  width: 35%;
+  height: 20%;
   border-radius: 55px;
-  top: 83%;
-  left: 50%;
   transform: translateX(-50%);
+}
+
+#mobile-container .image-container .paragraph {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  transform: translateX(-50%);
+}
+
+#mobile-container p {
+  font-size: 2.1vw;
+  top: 24%;
+  left: 70%;
+}
+
+#mobile-container #pineapple-text {
+  font-size: 2.1vw;
+  top: 20%;
+  left: 70%;
+}
+
+#mobile-container #grapefruit-text {
+  font-size: 2.1vw;
+  top: 20%;
+  left: 70%;
+}
+
+#btn-2, #btn-3, #btn-4, #btn-5 {
+  top: 70%;
+  left: 70%;
 }
 
 #mobile-container .image-container #btn-2:hover {
@@ -152,7 +184,7 @@ nav ul {
   background-color: black;
   cursor: pointer;
   transform: translateX(-50%) scale(1.1);
-  top: 83%;
+  top: 70%;
 }
 
 #mobile-container .image-container #btn-3:hover {
@@ -160,7 +192,7 @@ nav ul {
   background-color: black;
   cursor: pointer;
   transform: translateX(-50%) scale(1.1);
-  top: 83%;
+  top: 70%;
 }
 
 #mobile-container .image-container #btn-4:hover {
@@ -168,7 +200,7 @@ nav ul {
   background-color: black;
   cursor: pointer;
   transform: translateX(-50%) scale(1.1);
-  top: 83%;
+  top: 70%;
 }
 
 #mobile-container .image-container #btn-5:hover {
@@ -176,26 +208,10 @@ nav ul {
   background-color: black;
   cursor: pointer;
   transform: translateX(-50%) scale(1.1);
-  top: 83%;
+  top: 70%;
 }
 
-#tablet-container, #desktop-container {
-  display: none;
-}
-
-#desktop-container .image-container, #tablet-container .image-container {
-  position: relative;
-  display: inline-block;
-  width: 25%;
-}
-
-#desktop-container .image-container img, #tablet-container .image-container img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-#desktop-container .image-container .btn, #tablet-container .image-container .btn {
+#desktop-container {
   display: none;
 }
 
@@ -339,92 +355,99 @@ nav ul {
     display: none;
   }
 
-  #btn-2, #btn-3, #btn-4, #btn-5, #btn-10, #btn-11, #btn-12, #btn-13 {
-    display: none;
-  }
-
-  #tablet-container {
+  #desktop-container {
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     position: relative;
     width: 100%;
-  }
-
-  #tab-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 25px;
-    padding-left: 45px;
-    padding-right: 45px;
-    position: relative;
-    width: 100%;
-  }
-
-  .des-img {
-    width: 25%;
     height: auto;
   }
 
-  #btn-1 {
-    display: none;
+  #des-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
   }
 
-  #btn-1:hover {
-    display: none;
+  #desktop-container .image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+  } 
+
+
+  #desktop-container .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
   }
 
-  #tablet-container .image-container a {
-    font-size: 1.3vw;
-  }
-
-  #tablet-container .image-container .btn {
+  #desktop-container .image-container .paragraph {
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
-    color: black;
-    width: 70%;
-    height: 12%;
-    border-radius: 50px;
-    top: 83%;
-    left: 50%;
     transform: translateX(-50%);
+    color: black;
+    font-size: 1.1vw;
+    left: 70%;
+    top: 20%;
+    text-align: center;
   }
 
-  #tablet-container .image-container #btn-6:hover {
+  #desktop-container .image-container .des-btn {
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: white;
+    color: black;
+    width: 35%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 55px;
+    text-decoration: none;
+    font-size: 1.3vw; 
+    text-align: center;
+    left: 70%;
+    top: 70%;
+  }
+
+  #desktop-container .image-container #btn-2:hover {
     color: yellow;
     background-color: black;
     cursor: pointer;
     transform: translateX(-50%) scale(1.1);
-    top: 83%;
+    top: 70%;
   }
 
-  #tablet-container .image-container #btn-7:hover {
+  #desktop-container .image-container #btn-3:hover {
     color: orange;
     background-color: black;
     cursor: pointer;
     transform: translateX(-50%) scale(1.1);
-    top: 83%;
+    top: 70%;
   }
 
-  #tablet-container .image-container #btn-8:hover {
+  #desktop-container .image-container #btn-4:hover {
     color: greenyellow;
     background-color: black;
     cursor: pointer;
     transform: translateX(-50%) scale(1.1);
-    top: 83%;
+    top: 70%;
   }
 
-  #tablet-container .image-container #btn-9:hover {
+  #desktop-container .image-container #btn-5:hover {
     color: red;
     background-color: black;
     cursor: pointer;
     transform: translateX(-50%) scale(1.1);
-    top: 83%;
+    top: 70%;
   }
 
   .lightbox {
@@ -488,10 +511,8 @@ nav ul {
 
  #footer {
   position: relative;
-  top: 325px;
   left: 0;
   width: 100%;
-  height: 175px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -532,92 +553,12 @@ nav ul {
     padding: 0px;
   }
 
-  #btn-2, #btn-3, #btn-4, #btn-5, #btn-6, #btn-7, #btn-8, #btn-9 {
-    display: none;
-  }
-
-  #tablet-container, #tab-container {
-    display: none;
-  } 
-
-  #desktop-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    position: relative;
-    max-width: 100%;
-  }
-
-  #des-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 25px;
-    padding-left: 75px;
-    padding-right: 75px;
-    position: relative;
-    width: 1400px;
-  }
-
-  .des-img {
-    width: 25%;
-    height: auto;
-  }
-
   #btn-1 {
     display: none;
   }
 
   #btn-1:hover {
     display: none;
-  }
-
-  #desktop-container .image-container .btn {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    color: black;
-    width: 70%;
-    height: 12%;
-    border-radius: 50px;
-    top: 83%;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  #desktop-container .image-container #btn-10:hover {
-    color: yellow;
-    background-color: black;
-    cursor: pointer;
-    transform: translateX(-50%) scale(1.1);
-    top: 83%;
-  }
-
-  #desktop-container .image-container #btn-11:hover {
-    color: orange;
-    background-color: black;
-    cursor: pointer;
-    transform: translateX(-50%) scale(1.1);
-    top: 83%;
-  }
-
-  #desktop-container .image-container #btn-12:hover {
-    color: greenyellow;
-    background-color: black;
-    cursor: pointer;
-    transform: translateX(-50%) scale(1.1);
-    top: 83%;
-  }
-
-  #desktop-container .image-container #btn-13:hover {
-    color: red;
-    background-color: black;
-    cursor: pointer;
-    transform: translateX(-50%) scale(1.1);
-    top: 83%;
   }
 
   #foot-img {
