@@ -272,6 +272,7 @@ nav ul {
   align-items: center;
   height: 175px;
   width: 100%;
+  background-color: limegreen;
 }
 
 /* Tablet Grid */
@@ -402,6 +403,7 @@ nav ul {
     align-items: center;
     height: 175px;
     width: 100%;
+    background-color: limegreen;
   }
 }
 
@@ -541,6 +543,7 @@ nav ul {
     align-items: center;
     height: 175px;
     width: 100%;
+    background-color: limegreen;
   }
 
   #quatro-video {
