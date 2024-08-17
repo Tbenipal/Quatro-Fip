@@ -175,6 +175,7 @@ border-radius: 0;
   align-items: center;
   height: 175px;
   width: 100%;
+  background-color: limegreen;
 }
 
 
@@ -310,6 +311,7 @@ border-radius: 0;
     align-items: center;
     height: 175px;
     width: 100%;
+    background-color: limegreen;
   }
 }
 
@@ -433,6 +435,6 @@ border-radius: 0;
     align-items: center;
     height: 175px;
     width: 100%;
+    background-color: limegreen;
   }
-
 }
