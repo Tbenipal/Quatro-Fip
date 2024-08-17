@@ -141,7 +141,7 @@ nav ul {
   justify-content: center;
   background-color: white;
   color: black;
-  width: 33%;
+  width: 30%;
   height: 17%;
   border-radius: 55px;
   transform: translateX(-50%);
@@ -397,7 +397,7 @@ nav ul {
   }
 
   #desktop-container #des-container .image-container a {
-    font-size: 2.5vw;
+    font-size: 2.6vw;
   }
 
   #desktop-container .image-container .des-btn {
@@ -406,7 +406,7 @@ nav ul {
     background-color: white;
     color: black;
     width: 30%;
-    height: 15%;
+    height: 17%;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -419,7 +419,7 @@ nav ul {
     top: 70%;
   }
 
-  #desktop-container .image-container #btn-2:hover {
+  #desktop-container .image-container #btn-6:hover {
     color: yellow;
     background-color: black;
     cursor: pointer;
@@ -427,7 +427,7 @@ nav ul {
     top: 70%;
   }
 
-  #desktop-container .image-container #btn-3:hover {
+  #desktop-container .image-container #btn-7:hover {
     color: orange;
     background-color: black;
     cursor: pointer;
@@ -435,7 +435,7 @@ nav ul {
     top: 70%;
   }
 
-  #desktop-container .image-container #btn-4:hover {
+  #desktop-container .image-container #btn-8:hover {
     color: greenyellow;
     background-color: black;
     cursor: pointer;
@@ -443,7 +443,7 @@ nav ul {
     top: 70%;
   }
 
-  #desktop-container .image-container #btn-5:hover {
+  #desktop-container .image-container #btn-9:hover {
     color: red;
     background-color: black;
     cursor: pointer;
@@ -600,7 +600,7 @@ nav ul {
   }
 
   #desktop-container #des-container .image-container a {
-    font-size: 1.7vw;
+    font-size: 1.6vw;
   }
 
   #desktop-container .image-container .des-btn {
@@ -608,8 +608,8 @@ nav ul {
     transform: translateX(-50%);
     background-color: white;
     color: black;
-    width: 33%;
-    height: auto;
+    width: 30%;
+    height: 17%;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -622,7 +622,7 @@ nav ul {
     top: 70%;
   }
 
-  #desktop-container .image-container #btn-2:hover {
+  #desktop-container .image-container #btn-6:hover {
     color: yellow;
     background-color: black;
     cursor: pointer;
@@ -630,7 +630,7 @@ nav ul {
     top: 70%;
   }
 
-  #desktop-container .image-container #btn-3:hover {
+  #desktop-container .image-container #btn-7:hover {
     color: orange;
     background-color: black;
     cursor: pointer;
@@ -638,7 +638,7 @@ nav ul {
     top: 70%;
   }
 
-  #desktop-container .image-container #btn-4:hover {
+  #desktop-container .image-container #btn-8:hover {
     color: greenyellow;
     background-color: black;
     cursor: pointer;
@@ -646,7 +646,7 @@ nav ul {
     top: 70%;
   }
 
-  #desktop-container .image-container #btn-5:hover {
+  #desktop-container .image-container #btn-9:hover {
     color: red;
     background-color: black;
     cursor: pointer;
