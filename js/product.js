@@ -4,28 +4,28 @@ const mobileMenu = document.querySelector(".mobile-navbar");
 const closeMenu = document.querySelector(".close-burger");
 
 const lightBox = document.querySelector("#lightbox");
-const links = document.querySelectorAll(".mob-btn, .btn");
+const links = document.querySelectorAll(".mob-btn, .des-btn");
 const content = document.querySelector("#lightbox article");
 
 let products = [
   {
-    "name": "Lemon",
-    "description": "INGREDIENTS: CARBONATED WATER, SUGAR, CITRIC ACID, NATURAL LEMON FLAVOR, SODIUM CITRATE, POTASSIUM SORBATE, SODIUM BENZOATE, LEMON JUICE CONCENTRATE",
+    "name": "Lemon Flavour",
+    "description": "Lemon flavour provides 50 calories, 0 grams of fat, and 13 grams of carbohydrates, including 12 grams of natural sugars from real lemon juice concentrate. This zesty beverage provides a significant boost of Vitamin C, delivering 30% of your daily recommended intake to help support a healthy immune system.",
     "image": "images/Lemon_Front2.png"
   },
   {
-    "name": "Orange",
-    "description": "INGREDIENTS: CARBONATED WATER, SUGAR, CITRIC ACID, NATURAL ORANGE FLAVOR, SODIUM CITRATE, POTASSIUM SORBATE, SODIUM BENZOATE, ORANGE JUICE CONCENTRATE",
+    "name": "Orange Flavour",
+    "description": "Orange flavour provides 80 calories, 0 grams of fat, and 20 grams of carbohydrates, including 18 grams of natural sugars from real orange juice concentrate. This delicious beverage is an excellent source of Vitamin C, providing 30% of your daily recommended intake to help maintain a strong immune system",
     "image": "images/Orange_Front2.png"
   },
   {
-    "name": "Pineapple",
-    "description": "INGREDIENTS: CARBONATED WATER, SUGAR, CITRIC ACID, NATURAL PINEAPPLE FLAVOR, SODIUM CITRATE, POTASSIUM SORBATE, SODIUM BENZOATE, PINEAPPLE JUICE CONCENTRATE",
+    "name": "Pineapple Flavour",
+    "description": "Pineapple flavour provides 70 calories, 0 grams of fat, and 18 grams of carbohydrates, including 16 grams of natural sugars from real pineapple juice concentrate. This exotic beverage is enriched with essential vitamins, providing 20% of your daily recommended intake of Vitamin C and 10% of Vitamin B6, supporting both your immune system and energy metabolism.",
     "image": "images/Pineapple_Front2.png"
   },
   {
-    "name": "Grapefruit",
-    "description": "INGREDIENTS: CARBONATED WATER, SUGAR, CITRIC ACID, NATURAL GRAPEFRUIT FLAVOR, SODIUM CITRATE, POTASSIUM SORBATE, SODIUM BENZOATE, GRAPEFRUIT JUICE CONCENTRATE",
+    "name": "Grapefruit Flavour",
+    "description": "Grapefruit flavour provides 65 calories, 0 grams of fat, and 17 grams of carbohydrates, including 15 grams of natural sugars derived from real grapefruit juice concentrate. This invigorating beverage is an excellent source of Vitamin C, providing 35% of your daily recommended intake to bolster your immune system.",
     "image": "images/Grapefruit_Front2.png"
   }
 ];
